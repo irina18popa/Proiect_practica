@@ -2,6 +2,7 @@
 Realizatori: Popa + Sumanariu (C112 C)
 
 Ziua 1: 
+
   sudo apt-get install wireshark  
   sudo apt-get intsall tshark 
   
