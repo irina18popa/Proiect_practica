@@ -13,7 +13,7 @@ Ziua 3:
 sudo tshark -a duration:15 (autostop dupa 15 secunde)
 
 Ziua 4:
-nu prea am facut la tema de la practica, pt ca avem si poop de facut
+
 
 Ziua 5:
 Am putut "bloca" trafic doar in anumite cazuri, mai ne documentam sapt urmatoare
