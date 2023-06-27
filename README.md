@@ -16,4 +16,4 @@ Ziua 4:
 
 
 Ziua 5:
-Am putut "bloca" trafic doar in anumite cazuri, mai ne documentam sapt urmatoare
+Am putut "bloca" trafic doar in anumite cazuri
