@@ -1,5 +1,5 @@
 # Proiect_practica
-Realizatori: Popa + Sumanariu (C112 C)
+Realizatori: Popa Irina + Sumanariu Bianca (C112 C)
 
 Ziua 1:
 Ne-am documentat in legatura cu folosirea wireshark-ului pe VM si a comenzii "tshark"
