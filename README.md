@@ -71,6 +71,7 @@ echo -n "Numarul de adrese IP pe care doresti sa le blochezi: "
 
 Ziua 7:
 Am instalat snort si am observat ca alertele sunt date in functie de anumite reguli legate de protocol, IP, port sursa/destinatie care sunt retinute intr-un fisier ("snort.rules").
+	
 Ziua 8:
 	
 Am incercat sa imitam functionalitatea alertelor din snort cu ajutorul comenzii tcpdump pentru a avea IP sursa/destinatie si protocolul.
