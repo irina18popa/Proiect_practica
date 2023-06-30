@@ -44,7 +44,11 @@ do
         done
         ;;
         
-        4) echo  "Introduceti o regula pentru care doriti alerta"
+        4) 
+        echo "Timp pentru inregistrare trafic"
+        read time
+        sudo timeout $time tcpdump -n
+        echo  "Introduceti o regula pentru care doriti alerta"
         echo -n  "Protocol: "
         read prot_alerta
         echo -n "IP sursa: "
@@ -56,9 +60,6 @@ do
         echo -n "Port destinatie: "
         read port_alerta_d
         message="Alerta trafic: IP sursa: $IP_alerta_s, Port sursa: $port_alerta_s, IP destinatie: $IP_alerta_d, Port destinatie: $port_alerta_d, Protocol: $prot_alerta"
-        echo "Timp pentru inregistrare trafic"
-        read time
-        sudo timeout $time tcpdump -n
         verificare=$(sudo timeout "$time" tcpdump -n > "tr.txt")
         while read line
         do
