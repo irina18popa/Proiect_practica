@@ -74,11 +74,11 @@ Am instalat snort si am observat ca alertele sunt date in functie de anumite reg
 	
 Ziua 8:
 	
-Am incercat sa imitam functionalitatea alertelor din snort cu ajutorul comenzii tcpdump pentru a avea IP sursa/destinatie si protocolul.
+Am incercat sa "imitam" functionalitatea alertelor din snort cu ajutorul comenzii tcpdump pentru a avea IP sursa/destinatie si protocolul.
 
 tcpdump -n
 
 Ziua 9:
 	
-Am completat scriptul pentru a da alerte pentru traficul captat pentru o perioada de timp.
+Am completat scriptul pentru a da alerte pentru traficul captat pentru o perioada de timp (folosind comanda "timeout") .
 
